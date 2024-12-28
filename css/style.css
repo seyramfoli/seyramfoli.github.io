@@ -11733,6 +11733,7 @@ h5,
 @media (max-width: 767.98px) {
   .project .text {
     opacity: 1;
+    visibility: hidden;
   }
   .project .text span {
     color: rgba(255, 255, 255, 0.8);
@@ -11745,6 +11746,7 @@ h5,
 .project:hover .text,
 .project:focus .text {
   opacity: 1;
+  visibility: visible;
 }
 
 .aside-stretch {
