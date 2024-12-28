@@ -11704,7 +11704,7 @@ h5,
 }
 @media (max-width: 767.98px) {
   .project .overlay {
-    opacity: 0.2;
+    opacity: 0;
   }
 }
 .project .text {
