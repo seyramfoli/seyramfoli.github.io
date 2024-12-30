@@ -12621,3 +12621,6 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+.lightbox .lb-image {
+  border: none !important;
+}
