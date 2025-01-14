@@ -11910,7 +11910,7 @@ textarea.form-control {
   display: block;
   float: left;
   background: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
+  border-radius: 8px;
   position: relative;
 }
 .ftco-footer-social li a span {
