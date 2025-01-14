@@ -2681,7 +2681,7 @@ textarea.form-control.is-invalid {
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   -webkit-transition: color 0.15s ease-in-out,
     background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
     -webkit-box-shadow 0.15s ease-in-out;
@@ -8606,6 +8606,7 @@ button.bg-dark:focus {
 .mt-4,
 .my-4 {
   margin-top: 1.5rem !important;
+  text-align: justify;
 }
 
 .mr-4,
@@ -11379,12 +11380,12 @@ h5,
 .btn.btn-primary {
   background: #4474a3;
   border: 1px solid #4474a3 !important;
-  color: #000000 !important;
+  color: #fff !important;
 }
 .btn.btn-primary:hover {
   border: 1px solid #4474a3 !important;
-  background: #9abce0 !important;
-  color: #000000 !important;
+  background: #222222 !important;
+  color: #fff !important;
 }
 .btn.btn-primary.btn-outline-primary {
   border: 2px solid #4474a3 !important;
@@ -11433,7 +11434,7 @@ h5,
 }
 .btn.btn-white.btn-outline-white:hover {
   border: 1px solid transparent;
-  background: #9abce0 !important;
+  background: #222222 !important;
   color: #fff;
 }
 
