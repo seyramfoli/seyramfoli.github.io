@@ -4534,6 +4534,7 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  font: "League Spartan";
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -10931,7 +10932,7 @@ h5,
 .navbar-brand {
   font-weight: 900;
   font-size: 24px;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .hero h3.vr {
