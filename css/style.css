@@ -2038,13 +2038,6 @@ pre code {
 }
 
 @media (max-width: 991.98px) {
-  [data-scrollax],
-  .slider-text,
-  .one-forth,
-  .one-third {
-    transform: none !important;
-    touch-action: pan-y !important;
-  }
   .table-responsive-lg {
     display: block;
     width: 100%;
@@ -11105,7 +11098,7 @@ h5,
     bottom: 0;
     z-index: 1;
     padding: 1em;
-    touch-action: pan-y;
+    touch-action: pan-y !important;
   }
 }
 .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
