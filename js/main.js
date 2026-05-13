@@ -34,14 +34,7 @@ AOS.init({
   loader();
 
   // Scrollax
-  if (window.innerWidth > 991) {
-    $.Scrollax();
-  } else {
-    var scrollaxElements = document.querySelectorAll("[data-scrollax]");
-    scrollaxElements.forEach(function (el) {
-      el.removeAttribute("data-scrollax");
-    });
-  }
+  $.Scrollax();
 
   // Burger Menu
   var burgerMenu = function () {
@@ -94,8 +87,6 @@ AOS.init({
       responsive: {
         0: {
           items: 1,
-          touchDrag: true, //Allows clean item swiping
-          pullDrag: false,
         },
         600: {
           items: 1,
