@@ -12630,10 +12630,10 @@ textarea.form-control {
 @media (max-width: 768px) {
   .hero .slider-item,
   .hero .slider-item .js-fullheight {
-    height: 85vh !important; /*Reduces height 
+    height: 70vh !important; /*Reduces height 
     to 85% of screen */
     min-height: auto;
-    max-height: 85vh;
+    max-height: 70vh;
   }
 
   /*Ensure the container allows scrolling*/
