@@ -81,7 +81,7 @@ AOS.init({
       autoplayHoverPause: false,
       items: 1,
       touchDrag: true,
-      mouseDrag: true,
+      mouseDrag: false,
       pullDrag: false,
       freeDrag: false,
       navText: [
