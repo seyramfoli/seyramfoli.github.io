@@ -12627,3 +12627,19 @@ textarea.form-control {
 .lightbox .lb-image {
   border: none !important;
 }
+@media (max-width: 768px) {
+  .hero .slider-item,
+  .hero .slider-item .js-fullheight {
+    height: 85vh !important; /*Reduces height 
+    to 85% of screen */
+    min-height: auto;
+    max-height: 85vh;
+  }
+
+  /*Ensure the container allows scrolling*/
+  .hero,
+  .owl-item {
+    overflow: visible;
+    height: auto;
+  }
+}
