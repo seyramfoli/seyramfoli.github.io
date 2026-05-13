@@ -82,7 +82,7 @@ AOS.init({
       items: 1,
       touchDrag: true,
       mouseDrag: true,
-      pullDrag: true,
+      pullDrag: false,
       freeDrag: false,
       navText: [
         "<span class='ion-md-arrow-back'></span>",
