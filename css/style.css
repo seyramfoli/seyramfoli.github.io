@@ -12634,19 +12634,3 @@ textarea.form-control {
 .lightbox .lb-image {
   border: none !important;
 }
-@media (max-width: 768px) {
-  .hero .slider-item,
-  .hero .slider-item .js-fullheight {
-    height: 70vh !important; /*Reduces height 
-    to 85% of screen */
-    min-height: auto;
-    max-height: 70vh;
-  }
-
-  /*Ensure the container allows scrolling*/
-  .hero,
-  .owl-item {
-    overflow: visible;
-    height: auto;
-  }
-}
