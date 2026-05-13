@@ -80,6 +80,10 @@ AOS.init({
       nav: false,
       autoplayHoverPause: false,
       items: 1,
+      touchDrag: false,
+      mouseDrag: false,
+      pullDrag: false,
+      freeDrag: false,
       navText: [
         "<span class='ion-md-arrow-back'></span>",
         "<span class='ion-chevron-right'></span>",
