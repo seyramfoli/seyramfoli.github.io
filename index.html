@@ -1194,5 +1194,29 @@
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 
     <script src="js/main.js"></script>
+    <script>
+      // Close mobile navbar when a link is clicked
+      document.addEventListener("DOMContentLoaded", function () {
+        // Select all navbar links
+        const navbarLinks = document.querySelectorAll(".navbar-nav .nav-link");
+        const navbarCollapse = document.querySelector(".navbar-collapse");
+
+        navbarLinks.forEach(function (link) {
+          link.addEventListener("click", function () {
+            // Only close if the navbar is currently expanded (mobile view)
+            if (navbarCollapse.classList.contains("show")) {
+              // Use Bootstrap's collapse method if available, otherwise toggle class
+              if (typeof bootstrap !== "undefined" && bootstrap.Collapse) {
+                const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
+                  toggle: true,
+                });
+              } else {
+                navbarCollapse.classList.remove("show");
+              }
+            }
+          });
+        });
+      });
+    </script>
   </body>
 </html>
