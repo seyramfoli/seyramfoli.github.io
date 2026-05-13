@@ -2030,7 +2030,7 @@ pre code {
     display: block;
     width: 100%;
     overflow-x: auto;
-    -webkit-overflow-scrolling: hidden;
+    -webkit-overflow-scrolling: touch;
   }
   .table-responsive-md > .table-bordered {
     border: 0;
@@ -2042,7 +2042,7 @@ pre code {
     display: block;
     width: 100%;
     overflow-x: auto;
-    -webkit-overflow-scrolling: hidden;
+    -webkit-overflow-scrolling: touch;
   }
   .table-responsive-lg > .table-bordered {
     border: 0;
