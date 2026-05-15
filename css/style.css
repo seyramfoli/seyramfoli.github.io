@@ -11251,7 +11251,7 @@ h5,
 .owl-carousel.home-slider .owl-nav .owl-next:focus span:before {
   font-size: 25px;
   margin-top: 7px;
-  color: #034c36;
+  color: #fff;
 }
 .owl-carousel.home-slider .owl-dots {
   position: absolute;
