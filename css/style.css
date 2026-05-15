@@ -11206,6 +11206,10 @@ h5,
   transition: all 0.7s ease;
   opacity: 1;
   display: flex !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: 1;
+  overflow: hidden;
 }
 .owl-carousel.home-slider .owl-nav .owl-prev span:before,
 .owl-carousel.home-slider .owl-nav .owl-next span:before {
