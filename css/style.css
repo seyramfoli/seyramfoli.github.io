@@ -11195,8 +11195,8 @@ h5,
 .owl-carousel.home-slider .owl-nav .owl-prev,
 .owl-carousel.home-slider .owl-nav .owl-next {
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 25px;
+  height: 25px;
   background: rgba(0, 0, 0, 0.4) !important;
   color: #034c36 !important;
   -moz-transition: all 0.7s ease;
@@ -11210,6 +11210,8 @@ h5,
   margin: 0 !important;
   line-height: 1;
   overflow: hidden;
+  justify-content: center;
+  align-items: center;
 }
 .owl-carousel.home-slider .owl-nav .owl-prev span:before,
 .owl-carousel.home-slider .owl-nav .owl-next span:before {
@@ -11228,7 +11230,7 @@ h5,
 }
 .owl-carousel.home-slider .owl-nav .owl-prev:hover,
 .owl-carousel.home-slider .owl-nav .owl-prev:focus {
-  background: #000000 !important;
+  background: rgba(0, 0, 0, 0.4) !important;
   outline: none !important;
 }
 .owl-carousel.home-slider .owl-nav .owl-prev:hover span:before,
@@ -11248,7 +11250,7 @@ h5,
 }
 .owl-carousel.home-slider .owl-nav .owl-next:hover,
 .owl-carousel.home-slider .owl-nav .owl-next:focus {
-  background: #000000 !important;
+  background: rgba(0, 0, 0, 0.4) !important;
   outline: none !important;
 }
 .owl-carousel.home-slider .owl-nav .owl-next:hover span:before,
