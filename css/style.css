@@ -11205,6 +11205,7 @@ h5,
   -ms-transition: all 0.7s ease;
   transition: all 0.7s ease;
   opacity: 1;
+  display: flex !important;
 }
 .owl-carousel.home-slider .owl-nav .owl-prev span:before,
 .owl-carousel.home-slider .owl-nav .owl-next span:before {
@@ -11231,11 +11232,11 @@ h5,
 .owl-carousel.home-slider .owl-nav .owl-prev:focus span:before {
   font-size: 20px;
   margin-top: 7px;
-  color: #034c36;
+  color: #fff;
 }
 .owl-carousel.home-slider .owl-nav .owl-next {
   top: 0 !important;
-  right: 0 !important;
+  right: 20px !important;
 }
 @media (min-width: 992px) {
   .owl-carousel.home-slider .owl-nav .owl-next {
