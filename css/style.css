@@ -11216,7 +11216,6 @@ h5,
 .owl-carousel.home-slider .owl-nav .owl-prev {
   left: 20px;
   top: 0 !important;
-  right: 0 !important;
 }
 @media (min-width: 992px) {
   .owl-carousel.home-slider .owl-nav .owl-prev {
@@ -11230,7 +11229,7 @@ h5,
 }
 .owl-carousel.home-slider .owl-nav .owl-prev:hover span:before,
 .owl-carousel.home-slider .owl-nav .owl-prev:focus span:before {
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 7px;
   color: #fff;
 }
@@ -11250,7 +11249,7 @@ h5,
 }
 .owl-carousel.home-slider .owl-nav .owl-next:hover span:before,
 .owl-carousel.home-slider .owl-nav .owl-next:focus span:before {
-  font-size: 24px;
+  font-size: 25px;
   margin-top: 7px;
   color: #034c36;
 }
