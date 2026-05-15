@@ -11220,7 +11220,7 @@ h5,
   color: #034c36;
 }
 .owl-carousel.home-slider .owl-nav .owl-prev {
-  left: 50px !important;
+  left: 20px !important;
   top: 0 !important;
 }
 @media (min-width: 992px) {
@@ -11241,7 +11241,7 @@ h5,
 }
 .owl-carousel.home-slider .owl-nav .owl-next {
   top: 0 !important;
-  right: 50px !important;
+  right: 20px !important;
 }
 @media (min-width: 992px) {
   .owl-carousel.home-slider .owl-nav .owl-next {
