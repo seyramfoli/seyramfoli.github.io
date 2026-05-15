@@ -77,7 +77,7 @@ AOS.init({
       margin: 0,
       animateOut: "fadeOut",
       animateIn: "fadeIn",
-      nav: false,
+      nav: true,
       autoplayHoverPause: false,
       items: 1,
       touchDrag: false,
@@ -86,7 +86,7 @@ AOS.init({
       freeDrag: false,
       navText: [
         "<span class='ion-md-arrow-back'></span>",
-        "<span class='ion-chevron-right'></span>",
+        "<span class='ion-md-arrow-forward'></span>",
       ],
       responsive: {
         0: {
